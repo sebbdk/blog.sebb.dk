@@ -3,13 +3,12 @@
  * @Author: sebb
  * @Date:   2015-01-14 01:29:20
  * @Last Modified by:   sebb
- * @Last Modified time: 2015-01-15 11:12:51
+ * @Last Modified time: 2015-01-15 11:15:31
  */
 
 function baseUrl() {
-	$protocol  = isset($_SERVER['HTTPS']) ? 'https://' : 'http://';
-	//return $protocol . $_SERVER['HTTP_HOST'] . '/' . basename(getcwd()) . '/';
-	return dirname($_SERVER['PHP_SELF']);
+	$baseUrl = dirname($_SERVER['PHP_SELF']);
+	return $baseUrl === "/" ? "":$baseUrl;
 }
 
 function getDocuments() {
