@@ -2,13 +2,13 @@
 * @Author: sebb
 * @Date:   2015-01-14 01:20:23
 * @Last Modified by:   sebb
-* @Last Modified time: 2015-01-15 11:22:37
+* @Last Modified time: 2015-01-15 11:24:32
 */
 
 (function($) {
 
 	$(document).on('ready', function() {
-		md();
+		//md();
 	});
 
 	function md() {
