@@ -9,7 +9,7 @@
 
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 
-	<link rel="stylesheet" href="<?php echo baseUrl(); ?>css/screen.css">
+	<link rel="stylesheet" href="<?php echo baseUrl(); ?>/css/screen.css">
 	<link href='http://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
 </head>
 <body>
@@ -39,8 +39,8 @@
 		</div>
 	</div>
 
-	<script src="<?php echo baseUrl(); ?>js/vendor/jquery/dist/jquery.js" type="text/javascript" charset="utf-8" async defer></script>
-	<script src="<?php echo baseUrl(); ?>js/vendor/markdown/lib/markdown.js" type="text/javascript" charset="utf-8" async defer></script>
-	<script src="<?php echo baseUrl(); ?>js/app.js" type="text/javascript" charset="utf-8" async defer></script>
+	<script src="<?php echo baseUrl(); ?>/js/vendor/jquery/dist/jquery.js" type="text/javascript" charset="utf-8" async defer></script>
+	<script src="<?php echo baseUrl(); ?>/js/vendor/markdown/lib/markdown.js" type="text/javascript" charset="utf-8" async defer></script>
+	<script src="<?php echo baseUrl(); ?>/js/app.js" type="text/javascript" charset="utf-8" async defer></script>
 </body>
 </html>

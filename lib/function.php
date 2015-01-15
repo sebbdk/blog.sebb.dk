@@ -3,13 +3,13 @@
  * @Author: sebb
  * @Date:   2015-01-14 01:29:20
  * @Last Modified by:   sebb
- * @Last Modified time: 2015-01-15 11:11:03
+ * @Last Modified time: 2015-01-15 11:12:51
  */
 
 function baseUrl() {
 	$protocol  = isset($_SERVER['HTTPS']) ? 'https://' : 'http://';
 	//return $protocol . $_SERVER['HTTP_HOST'] . '/' . basename(getcwd()) . '/';
-	return dirname($_SERVER['PHP_SELF']) . '/';
+	return dirname($_SERVER['PHP_SELF']);
 }
 
 function getDocuments() {
@@ -44,5 +44,6 @@ function getDocument() {
 
 function getName() {
 	$name = str_replace(baseUrl(), '', $_SERVER['REQUEST_URI']);
+	$name = str_replace('/', '', $name);
 	return str_replace('_', ' ', $name);
 }
