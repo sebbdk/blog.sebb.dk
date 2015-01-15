@@ -40,7 +40,7 @@
 	</div>
 
 	<script src="<?php echo baseUrl(); ?>/js/vendor/jquery/dist/jquery.js" type="text/javascript" charset="utf-8"></script>
-	<script src="<?php echo baseUrl(); ?>/js/vendor/markdown/lib/markdown.js" type="text/javascript" charset="utf-8" async defer></script>
-	<script src="<?php echo baseUrl(); ?>/js/app.js" type="text/javascript" charset="utf-8" async defer></script>
+	<script src="<?php echo baseUrl(); ?>/js/vendor/markdown/lib/markdown.js" type="text/javascript" charset="utf-8"></script>
+	<script src="<?php echo baseUrl(); ?>/js/app.js" type="text/javascript" charset="utf-8"></script>
 </body>
 </html>
