@@ -3,8 +3,12 @@
  * @Author: sebb
  * @Date:   2015-01-14 01:29:20
  * @Last Modified by:   sebb
- * @Last Modified time: 2015-01-16 14:06:25
+ * @Last Modified time: 2015-01-16 14:50:25
  */
+
+function getFullUrl() {
+	return $url = (isset($_SERVER['HTTPS']) ? "https" : "http") . "://$_SERVER[HTTP_HOST]$_SERVER[REQUEST_URI]";
+}
 
 function baseUrl() {
 	$baseUrl = dirname($_SERVER['PHP_SELF']);
