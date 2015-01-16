@@ -7,7 +7,7 @@
 ![alt text](./img/flash_logo.jpg)
 
 I have been working a lot less with flash recently.
-Not because i do not want to, but because i simply have not had any usecases that merrited it.
+Not because i do not like flash anymore, but my only real usecase is as a fallback for video streaming on older browsers.
 
 In fact the only real flash project i have been working on for a long time 
 Have been the game Moonnmachine which is a collaboration i have been working on for 6 months or so.
@@ -15,8 +15,6 @@ Have been the game Moonnmachine which is a collaboration i have been working on 
 ![alt text](img/moonmachine.jpg "Moonmachine, månemaskinen")
 
 I have now made a concious descision not to use flash again if i can avoid it.
-
-Not because i do not like flash anymore, but i simply cannot merrit a proper usecase for it as anything but a fallback sollution to support video in old browsers anymore.
 
 To no'ones surprise, Flash has been steadily decaying the last few years, desptite actually having become much better than it was in the past.
 
@@ -27,7 +25,7 @@ Unity3D is 100% a better game development enviroment, and has better performance
 
 To put it short, there are better tools to get the job done, and i am going to use those instead.
 
-Flash had a good run, and still have a oppotunity to rise but they need to ramp up and and tool up instead of ignorering what their competitors today are doing.
+Flash had a good run, and still have a oppotunity to rise but they need to ramp up and and tool up instead of ignorering what their competitors are doing today.
 
 If anything, Unity3D has proven that providing the tools and libraries developers needs from day one massively helps developers make things, add on top of this the Unity asset store to give library developers more incent to help the comunity and you have something that works great.
 
@@ -41,7 +39,7 @@ If anything, Unity3D has proven that providing the tools and libraries developer
 
 * The documentation for AS3 is AWESOME, and has always been so.
 
-* Did i mention AS3 is Ecmascript based? this basically means you can write code in a different bajillion ways!
+* Did i mention AS3 is Ecmascript based? this basically means you can write code in a bajillion different ways!
 
 * Flash CC and Flash developer works great together to bridge the gap between code and 2D vector graphics when you need it.
 
