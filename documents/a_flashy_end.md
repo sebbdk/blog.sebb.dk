@@ -18,10 +18,11 @@ I have now made a concious descision not to use flash again if i can avoid it.
 
 To no'ones surprise, Flash has been steadily decaying the last few years, desptite actually having become much better than it was in the past.
 
-The arrival of stage3d a few years back, improvements to flash and flash CC, Air and the list goes on.
+The arrival of stage3d a few years back, improvements to Flash Develop, flash CC, Air and the list goes on.
 The problems is that today' they are getting outmatched in most fields. 
 
-Unity3D is 100% a better game development enviroment, and has better performance, webgl is supported on most mobile devices nowadays making webgl a better multiplatform sollution for graphical webapplications, rivaling the same performance that native mobile air applications has on some systems, and don't even get me started on how shitty the idea behind Flex was, trying essentially to be a better type of HTML..
+Unity3D is 100% a better game development enviroment and has better performance, 
+webgl is supported on most mobile devices nowadays making webgl a better multiplatform sollution for graphical webapplications, rivaling the same performance that native mobile air applications has on some systems.
 
 To put it short, there are better tools to get the job done, and i am going to use those instead.
 
