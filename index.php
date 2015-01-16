@@ -51,7 +51,7 @@
 		<div class="other">
 			<?php 
 				foreach(getDocuments() as $document) {
-					echo '<a href="'. baseUrl() . $document['slug'] . '">' . $document['name'] . '</a>';
+					echo '<a href="'. baseUrl() . '/' . $document['slug'] . '">' . $document['name'] . '</a>';
 				}
 			?>
 		</div>
