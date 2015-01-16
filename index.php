@@ -1,4 +1,4 @@
-<?php include('lib/function.php'); ?>
+<?php  include('lib/function.php'); ?>
 <!DOCTYPE html>
 <html>
 <head>
@@ -20,15 +20,20 @@
 		</div>
 	</h1>
 	
-	<h3>
-		<div class="content-restraint">
-			<?php echo getName(); ?>
+
+	<?php if($document = getDocument()) : ?>
+		<h3>
+			<div class="content-restraint">
+				<?php echo $document['meta']['title']; ?>
+			</div>
+		</h3>
+
+		<div class="content">
+			<div class="markdown"><?php echo $document['text']; ?></div>
 		</div>
-	</h3>
+	<?php endif; ?>
 
 	<div class="content">
-		<div class="markdown"><?php echo getDocument(); ?></div>
-
 		<h4>Other readings</h4>
 		<div class="other">
 			<?php 

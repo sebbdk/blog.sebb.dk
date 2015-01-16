@@ -3,7 +3,7 @@
  * @Author: sebb
  * @Date:   2015-01-14 01:29:20
  * @Last Modified by:   sebb
- * @Last Modified time: 2015-01-15 11:15:31
+ * @Last Modified time: 2015-01-16 14:06:25
  */
 
 function baseUrl() {
@@ -34,10 +34,25 @@ function getDocument() {
 	$name = str_replace('/', '', $name);
 
 	if(!empty($name)) {
+
 		$content = file_get_contents('documents/' . $name . '.md');
-		return $content;
+		$allLines = explode("\n", $content);
+
+		$meta = [];
+		$text = "";
+		foreach ($allLines as $line) {
+		    if (strpos($line, 'meta') !== FALSE) {
+		    	$p = explode(':', $line);
+		    	$meta[$p[1]] = $p[2];
+		         continue;
+		    }
+
+		    $text .= $line . "\n";
+		};
+
+		return ['text' => $text, 'meta' => $meta];
 	} else {
-		return "";
+		return false;
 	}
 }
 
